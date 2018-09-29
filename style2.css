@@ -1,0 +1,223 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.vertical-padding {
+    padding: 0.5rem 0;
+}
+
+/*------TOP BAR------*/
+#bardutop {
+    box-shadow: 0px 1px 3px grey;
+    font-family: serif;
+}
+
+
+.navbar {
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+#logo {
+    padding-left: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+/*#right-buttons,*/
+#sign-in-button,
+#subscribe-button,
+#search-button {
+    display: inline-block;
+    padding: 0 0.4em;
+}
+
+#sign-in-button,
+#subscribe-button,
+#signin-separator {
+    padding-top: 0.4em;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+
+.header-button {
+    color: dimgray;
+}
+
+.subscribe-button {
+   color: #126BAA; 
+}
+
+#right-buttons {
+    display: flex;
+    justify-content: row;
+    padding-top: 1em;
+}
+
+#loupe {
+    padding-top: 0.2em;
+}
+
+/*---------- BUTTON BAR -------------*/
+
+#button-bar-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    
+}
+
+#button-bar1,
+#button-bar2 {
+    justify-content: space-around; 
+}
+
+.nav-button-container {
+    text-align: center;
+    border-bottom: solid thin;
+    border-color: grey;
+/*    box-shadow: 0px 1px 3px grey;*/
+    height: 2.0em;
+}
+
+.nav-button {
+    border-top: solid thin;
+    border-right: solid thin;
+    border-top: solid thin;
+    border-color: grey;
+    
+}
+
+.nav-button a {
+    color: dimgray;
+    font-size: 0.7vw;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+#special-button {
+    border-top: solid thin;
+    border-color: grey;
+}
+
+#special-button a {
+    color: dimgray;
+    font-size: 0.7vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*Fonctionnalites hover*/
+
+#business-button:hover {
+    background-color: #009F5E;
+}
+
+#culture-button:hover {
+    background-color: #41274B;
+}
+
+#gear-button:hover {
+    background-color: #1F849F;
+}
+
+#ideas-button:hover {
+    background-color: #778A74;
+}
+
+#science-button:hover {
+    background-color: #FFC036;
+}
+
+#security-button:hover {
+    background-color: #621200;
+}
+
+#transportation-button:hover {
+    background-color: #E44C50;
+}
+
+#special-button:hover {
+    background-color: #1D1D1D;
+}
+
+#special-button:hover a, 
+#business-button:hover a,
+#culture-button:hover a,
+#gear-button:hover a,
+#ideas-button:hover a,
+#science-button:hover a,
+#security-button:hover a,
+#transportation-button:hover a {
+    color: white;
+}
+
+.container
+{
+    font-family: system-ui;
+    
+}
+    
+}
+
+.autor 
+{
+    font-weight: bold;
+}
+
+#block2
+{
+    border: 1px solid;
+    border-color:darkgray;
+    border-top: 3px solid black;
+    margin: 0.5%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+#block3
+{
+    border: 1px solid;
+    border-color:darkgray;
+    border-top: 3px solid black;
+    margin: 0.5%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+#block6
+{
+    border: 1px solid;
+    border-color:darkgray;
+    border-top: 3px solid black;
+    margin: 0.5%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+#block7
+{
+    border: 1px solid;
+    border-color:darkgray;
+    border-top: 3px solid black;
+    margin: 0.5%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+#block8
+{
+    border: 1px solid;
+    border-color:darkgray;
+    border-top: 3px solid black;
+    margin: 0.5%;
+    box-shadow: 1px 1px 12px #555;
+    
+}

@@ -1,0 +1,605 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.vertical-padding {
+    padding: 0.5rem 0;
+}
+
+/*------TOP BAR------*/
+#bardutop {
+    box-shadow: 0px 1px 3px grey;
+    font-family: serif;
+    margin-bottom: 4;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    margin-top: -2;
+}
+
+
+.navbar {
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+#logo {
+    padding-left: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+/*#right-buttons,*/
+#sign-in-button,
+#subscribe-button,
+#search-button {
+    display: inline-block;
+    padding: 0 0.4em;
+}
+
+#sign-in-button,
+#subscribe-button,
+#signin-separator {
+    padding-top: 0.4em;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+
+.header-button {
+    color: dimgray;
+}
+
+.subscribe-button {
+   color: #126BAA; 
+}
+
+#right-buttons {
+    display: flex;
+    justify-content: row;
+    padding-top: 1em;
+}
+
+#loupe {
+    padding-top: 0.2em;
+}
+
+/*----- BANDEAU SUBSCRIBE ------*/
+
+#subscribe-bandeau {
+    background-color: black;
+    width: 100%;
+	
+}
+
+
+#subscribe-bandeau h1 {
+    color: darkgray;
+    font-family: 'Coiny';
+    font-size: 3vw;
+}
+
+
+
+#subscribe-bandeau #get-wired {
+    color: white;
+}
+
+.bandeau-black {
+    background-color: black;
+}
+
+.bandeau-black li, 
+.includatum {
+    color: white;
+    font-family: 'Josefin sans';
+    font-size: 1.3vw;
+}
+
+#subscribe-bandea-button {
+    background-color: #F5CB00;
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Josefin sans';
+}
+
+#subscribe-bandea-button:hover {
+    background-color: rgb(188, 161, 62);
+}
+
+.year410bucks {
+    color: white;
+    font-family: 'Josefin sans';
+    font-size: 1.7vw;
+    padding-top: 1em;
+}
+
+
+display-none {
+    display: none;
+}
+
+/*
+#right-buttons:hover #subscribe-bandeau {
+    display: block;
+}
+*/
+@media screen and (max-width: 992px) {
+    #subscribe-bandeau {
+        visibility: hidden;
+    }
+    
+    #bardutop {
+        border: none;
+        box-shadow: 0 0 0 0;
+    }
+}
+
+
+/*---------- BUTTON BAR -------------*/
+
+#button-bar-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    
+}
+
+#button-bar1,
+#button-bar2 {
+    justify-content: space-around;
+}
+
+.nav-button-container {
+    text-align: center;
+    border-bottom: solid thin;
+    border-color: grey;
+    box-shadow: 0px 1px 3px 1grey;
+/*    height: 2.0em;*/
+}
+
+.nav-button {
+    border-top: solid thin;
+    border-right: solid thin;
+    border-top: solid thin;
+    border-color: grey;
+    
+}
+
+.nav-button a {
+    color: dimgray;
+    font-size: 0.7vw;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+#special-button {
+    border-top: solid thin;
+    border-color: grey;
+}
+
+#special-button a {
+    color: dimgray;
+    font-size: 0.7vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*Fonctionnalites hover*/
+
+#business-button:hover {
+    background-color: #009F5E;
+    transition: 0.3s;
+}
+
+#culture-button:hover {
+    background-color: #41274B;
+    transition: 0.3s;
+}
+
+#gear-button:hover {
+    background-color: #1F849F;
+    transition: 0.3s;
+}
+
+#ideas-button:hover {
+    background-color: #778A74;
+    transition: 0.3s;
+}
+
+#science-button:hover {
+    background-color: #FFC036;
+    transition: 0.3s;
+}
+
+#security-button:hover {
+    background-color: #621200;
+    transition: 0.3s;
+}
+
+#transportation-button:hover {
+    background-color: #E44C50;
+    transition: 0.3s;
+}
+
+#special-button:hover {
+    background-color: #1D1D1D;
+    transition: 0.3s;
+}
+
+#special-button:hover a, 
+#business-button:hover a,
+#culture-button:hover a,
+#gear-button:hover a,
+#ideas-button:hover a,
+#science-button:hover a,
+#security-button:hover a,
+#transportation-button:hover a {
+    color: white;
+}
+
+/*--------------------Bandeau-caché-------------*/
+
+#photo{
+    border-top: solid thin;
+    border-color: grey;
+}
+
+
+#bandeau{
+    height: 150px;
+    background-color: white
+}
+
+.imagebandeau{
+    height: 90px;
+    width: 100px;
+    margin: auto;
+    margin-top: 25px;
+    
+}
+
+.text-logo{
+    color: grey;
+    position: relative;
+    bottom: 20px
+}
+
+
+#business:hover {
+    background-color: #009F5E;
+    transition: 0.3s;
+}
+
+#culture:hover {
+    background-color: #41274B;
+    transition: 0.3s;
+}
+
+#gear:hover {
+    background-color: #1F849F;
+    transition: 0.3s;
+}
+
+#ideas:hover {
+    background-color: #778A74;
+    transition: 0.3s;
+}
+
+#science:hover {
+    background-color: #FFC036;
+    transition: 0.3s;
+}
+
+#security:hover {
+    background-color: #621200;
+    transition: 0.3s;
+}
+
+#transportation:hover {
+    background-color: #E44C50;
+    transition: 0.3s;
+}
+
+#photo:hover {
+    background-color: #1D1D1D;
+    transition: 0.3s;
+}
+
+#photo:hover p, 
+#business:hover p,
+#culture:hover p,
+#gear:hover p,
+#ideas:hover p,
+#science:hover p,
+#security:hover p,
+#transportation:hover p {
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    #bandeau {
+        display: none;
+        background: none;
+    }
+}
+    
+    
+/*----------- MAIN ---------------*/
+#imgsurf {
+    margin-top: 0.09em;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.main-text-container {
+    max-width: 700;
+}
+
+#petitbackchannel {
+    display: flex;
+    justify-content: left;
+    margin: 0 0;
+    padding: 0;
+}
+
+.backchannel {
+    color: cadetblue;
+}
+
+.author b {
+    border-bottom: 0.3rem solid cadetblue;
+    padding: 0 0 0px;
+}
+
+
+.text-img-container {
+    max-width: 1000;
+    display: flex;
+    flex-direction: row;
+}
+
+#bigassfigure {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigassfigure-container {
+    align-items: center;
+}
+
+.stay-fixed {
+    min-width: 365px;
+    padding-right: 1rem;
+}
+
+.two-photos {
+    display: flex;
+}
+
+.smallfig {
+    text-align: left;
+}
+
+.abril {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4rem;
+}
+
+.petit-gras {
+    font-weight: bold;
+}
+
+.article-text {
+    font-size: 22;
+    font-family: serif;
+}
+
+/*-------YOUTUBE-------*/
+
+#youtube-container {
+    max-width: 700;
+    border-top: solid 0.8rem black;
+    margin-top: 2rem;
+}
+
+#youtube {
+    margin-top: 2rem;
+}
+
+.small-category {
+    margin-top: 0.5rem;
+}
+
+#related-video-title {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    padding: 0.6rem 0;
+    border-bottom: solid thin gray;
+}
+
+.empty {
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hashtag {
+   padding-top: 1rem;
+    color: gray;
+}
+
+.hashtag:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#youtube-card {
+    margin-bottom: 1rem;
+}
+
+
+
+/*-----ZONE GRISE----*/
+.gris {
+    background-color: #F6F6F6;
+}
+
+/*----LIENS SPONSORISES----*/
+#liens-sponsor {
+    border-top: solid 0.8rem black;
+    margin-top: 2rem;
+    background-color: white;
+}
+
+.padding-container {
+    padding-top: 1.5rem;
+}
+
+.sponsored {
+    color: dimgray;
+}
+
+.small-card {
+    min-width: 120px;
+}
+
+/*
+#megadiv {
+    min-width: 700px;
+}
+
+.suggestion-1,
+.suggestion-2 {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.intermediary-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+.suggestion-container {
+    height: 30%;
+}
+
+.second-mozaique {
+    margin-top: 1em;
+}
+
+.horizontal-column {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestion-3 {
+    background-color: white;
+    padding-top: 1em;
+}
+
+.paragraph {
+    padding: 1em;
+}
+*/
+
+
+/*---------FOOTER---------*/
+
+#footer-container {
+    background-color: white;
+    border-top: 1px solid darkgrey;
+    box-shadow: 0px -2px 2px darkgray;
+}
+
+.container
+{
+    font-family: system-ui;   
+}
+    
+.lgwired
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;    
+}
+
+#logowired
+{
+    
+    
+}
+
+.social
+{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#rub
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rubr
+{
+    padding: 0;
+}
+
+@media screen and (max-width: 768px){
+    .rubrique{
+        border: 1px solid darkgray;
+        margin-bottom: 10px;
+    }
+}
+
+.rubrique
+{
+    display: inline-block;
+    color: darkgray;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    border-left: 1px solid darkgray;
+}
+
+#cg
+{
+    text-align: center;
+    color: darkgray;
+    font-size: 15px;   
+}
+
+.cgu
+{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;   
+}

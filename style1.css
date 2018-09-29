@@ -1,0 +1,598 @@
+@font-face{
+    font-family:"Tungsten-Medium";
+    font-style:normal;
+    src: url(Tungsten-Medium.ttf) ;
+    
+}
+
+body{
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    color: black;
+}
+
+#wir{
+ height: 16%;
+ width: 23%;
+ border-radius: 50%;
+ float: right;
+ padding-right:3%;
+ padding-bottom: 2.8%
+    
+ 
+}
+
+#future{
+    width: 60%;
+    float: right;
+    top: 15%;
+    padding-right: 2%;
+}
+
+#wired{
+    margin: 0;
+    width: 15%;
+    position: relative;
+    left : 44.5%;
+    top: 1.3em;
+}
+
+
+#topbar{
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    box-shadow: 2px 2px 5px #ccc;
+    border-bottom-color: gray;
+    position: fixed;
+    z-index: 200
+}
+
+#topbar-container{
+    background-color: rgb(258, 188, 28);
+    margin-left: 10%;
+    padding-top: 10%;
+
+
+}
+
+#titre, 
+#titre2{
+    font-family:"Tungsten-Medium";
+    font-size: 400%;
+    font-weight: bold;
+    line-height: 0.8;
+    width: 45%;
+}
+
+#prix{
+    font-weight: bold;
+    padding-top: 2%;
+    color: black;
+}
+
+span{
+    color: white
+}
+
+#titre2{
+    color: white
+}
+
+#topbar-container-2{
+    background-color: rgb(258, 188, 28);
+    height: 75%; 
+    z-index: 1;
+}
+
+#gift{
+    color: black;
+}
+
+
+
+#Digital-only{
+    color: black;
+}
+
+#liste-abo{
+    padding-top: 2%;
+    font-size: 100%;
+    line-height: 1.08;
+    width: 40%
+    
+}
+
+#livraison{
+    width: 30%;
+    padding-left: 10%;
+    font-size: 100%;
+}
+
+#US{
+    padding-top: 3em;
+    text-align: center;
+    font-size:80%;
+}
+
+label{
+    color: grey;
+}
+
+.was-validated{
+    padding-bottom: 5%;
+    padding-left: 7%;
+    
+}
+    
+.form-control{
+    width: 50%;
+    background-color: #f6f6f6;
+    border: 2px solid;
+    border-color: grey;
+    border-radius: 0px;
+}
+
+#marge{
+    background-color: #f6f6f6;
+}
+
+.formulaire{
+    box-shadow: 2px 2px 5px #ccc;
+    border-bottom-color: gray;
+    background-color: white;
+    border-top: 8px solid;
+    border-top-color: black;
+    
+    
+    
+}
+
+#corps1{
+    padding-bottom: 6%;
+    background-color: rgb(258, 188, 28);
+    height: 1%;
+    
+}
+
+#form1{
+    
+    line-height: 2.5;
+}
+
+#choix1{
+    padding-left: 5%;
+}
+
+#corps2{
+    padding-top: 8em;
+    padding-bottom: 5%;
+    background-color: #f6f6f6;
+    
+}
+
+#form2{
+    line-height: 2;
+}
+
+#choix2{
+    padding-left: 5%
+}
+
+#corps3{
+    padding-bottom: 5%;
+    background-color: #f6f6f6;
+}
+
+#form3{
+    line-height: 2;
+}
+
+#corps4{
+    padding-bottom: 0%;
+    background-color: #f6f6f6;
+}
+
+#form4{
+    border: none;
+    padding-left: 5%;
+    height: 37%;
+}
+
+#corpsreview{
+    background-color: #f6f6f6;
+    height: 32em;
+}
+
+#review{
+    padding-top: 3%
+}
+
+#WIREDsub{
+    padding-top: 3%
+}
+
+#order{
+    padding-top: 3%;
+}
+
+#dix{
+    color: black;
+    float: right;
+    padding-right: 10%
+}
+
+#dixbis{
+    color: black;
+    float: right;
+    padding-right: 10%
+}
+
+#sale{
+    float: right;
+    padding-right: 8%;
+}
+
+#subscribe{
+    margin-left: 25%;
+    width: 50%;
+    height: 8%;
+    background-color: black;
+    color: white
+    
+}
+
+#FAQ1{
+    background-color: white
+    
+}
+
+#foire{
+    padding-left: 5.5%;
+    font-size: 400%;
+    font-family: Tungsten-Medium;
+}
+
+#accord{
+    font-size: 80%;
+    padding-left: 3%
+}
+
+.selectstate{
+    background-color: #f6f6f6;;
+    width: 47.6%;
+    border: 2px solid;
+    border-color: grey;
+    height: 2.3em;
+    color: grey;
+    margin-left: 7%;
+   
+}
+
+.dateexpi{
+    display: block;
+    margin-bottom: 5%;
+    width: 15%;
+    background-color: #f6f6f6;;
+    border: 2px solid;
+    border-color: grey;
+    height: 2.3em;
+    color: grey;
+    margin-left: 7%;
+}
+
+#Zip{
+    padding-top: 2.5%
+}
+
+.top-formulaire1{
+    border-bottom-style:ridge;
+    border-bottom-color: grey;
+    margin: 0;
+    padding-left: 2%;
+    line-height: 3;
+    
+}
+
+.top-formulaire{
+    border-bottom-style:ridge;
+    border-bottom-color: grey;
+    margin: 0;
+    padding-left: 2%;
+    line-height: 3;
+    
+}
+
+#accordion{
+    z-index: 1;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+.card-header{
+    background-color: white;
+}
+
+#cadenas{
+    padding-left: 5%;
+}
+
+#info2{
+    padding-top: 4%;
+}
+
+#info1{
+    padding-top: 10%;
+}
+
+#INFO{
+    height: 38em;
+    font-size: 90%;
+    background-color: white
+}
+
+#ecriture1{
+    font-size: 1em;
+    color: black;
+}
+
+#ecriture2{
+    font-size: 1em;
+    color: black;
+}
+
+#ecriture3{
+    font-size: 1em;
+    color: black;
+}
+
+#ecriture4{
+    font-size: 1em;
+    color: black;
+}
+
+.card{
+    font-size: 0.8em
+}
+
+#renouvellemnt-auto{
+    margin-top: 2.5%
+}
+
+            /*MEDIA QUERIES*/
+@media (max-width: 459px) {  
+    
+    #future{
+        position: absolute;
+        opacity: 0;
+    }
+    #titre, 
+    #titre2{
+        width: 100%
+    }
+    #wir{
+        margin-right: 10%;
+        width: 120px;
+        height: 120px
+        
+    }
+    #liste-abo{
+        width:100%
+    }
+    #livraison{
+        width: 100%
+    }
+    #form2{
+        padding-top: 35%
+    }
+    #form1{
+        padding-top: 10%
+    }
+    #US{
+        font-size: 65%;
+        width: 100%;
+        left: 0%;
+        top: 100%;
+        text-align: center;
+    }
+    #wired{
+        left: 38%;
+    }
+    
+
+}
+
+@media (min-width: 460px) and (max-width: 535px){
+    #future{
+        position: absolute;
+        opacity: 0;
+    }
+    #titre, 
+    #titre2{
+        width: 100%
+    }
+    #wir{
+        margin-right: 10%;
+        width: 120px;
+        height: 120px
+        
+    }
+    #liste-abo{
+        width:100%
+    }
+    #livraison{
+        width: 100%
+    }
+    #form2{
+        padding-top: 30%
+    }
+    #form1{
+        padding-top: 5%
+    }
+    #US{
+        font-size: 70%;
+        width: 100%;
+        left: 0%;
+        top: 100%;
+        text-align: center;
+    }
+    #wired{
+        left: 38%;
+    }
+    
+}
+
+@media (min-width: 536px) and (max-width: 681px){
+    #future{
+        position: absolute;
+        opacity: 0;
+    }
+    #titre, 
+    #titre2{
+        width: 100%
+    }
+    #wir{
+        margin-right: 10%;
+        width: 120px;
+        height: 120px
+        
+    }
+    #liste-abo{
+        width:100%
+    }
+    #livraison{
+        width: 100%
+    }
+    #form2{
+        padding-top: 20%
+    }
+    #form1{
+        padding-top: 9%
+    }
+    #US{
+        font-size: 70%;
+        width: 100%;
+        left: 0%;
+        top: 100%;
+        text-align: center;
+    }
+    #wired{
+        left: 38%;
+    }
+    
+}
+@media (min-width: 682px) and (max-width: 768px){
+    #future{
+        position: absolute;
+        opacity: 0;
+    }
+    #titre, 
+    #titre2{
+        width: 100%
+    }
+    #wir{
+        margin-right: 10%;
+        width: 120px;
+        height: 120px
+        
+    }
+    #liste-abo{
+        width:100%
+    }
+    #livraison{
+        width: 100%
+    }
+    #form2{
+        padding-top: 12%
+    }
+    #form1{
+        padding-top: 13%
+    }
+    #US{
+        font-size: 70%;
+        width: 100%;
+        left: 0%;
+        top: 90%;
+        text-align: center;
+    }
+    #wired{
+        left: 38%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+    #future{
+        position: absolute;
+        opacity: 0;
+    }
+    #titre, 
+    #titre2{
+        width: 100%
+    }
+    #wir{
+        margin-right: 10%;
+        width: 120px;
+        height: 120px
+        
+    }
+    #liste-abo{
+        width:100%
+    }
+    #livraison{
+        width: 100%
+    }
+    #form2{
+        padding-top: 7%
+    }
+    #form1{
+        padding-top: 10%
+    }
+    #US{
+        width: 100%;
+        left: 0%;
+        top: 90%;
+        text-align: center;
+    }
+    #wired{
+        left: 38%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1100px){
+    #livraison{
+        width: 100%;
+        font-size: 80%
+    }
+    #US{
+        width: 100%;
+        left: 0%;
+        top: 100%;
+        text-align: center;
+    }
+    #form1{
+        padding-top: 0%
+    }
+    #form2{
+        padding-top: 9%
+    }
+}
+
+@media (min-width: 1101px){
+    #livraison{
+        width: 100%;
+        font-size: 80%
+    }
+    #US{
+        width: 100%;
+        left: 0%;
+        top: 91%;
+        text-align: center;
+    }
+}

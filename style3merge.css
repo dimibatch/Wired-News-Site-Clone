@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Anton|Coiny');
+
+#mega-container {
+    background-color: #F6F6F6;
+    padding-top: 7em;
+}
+
+#big-main-row {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1000px;
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.vertical-padding {
+    padding: 0.5rem 0;
+}
+
+/*------TOP BAR------*/
+#bardutop {
+    box-shadow: 0px 1px 3px grey;
+    font-family: serif;
+    margin-bottom: 4;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    background-color: white;
+}
+
+
+.navbar {
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+#logo {
+    padding-left: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+/*#right-buttons,*/
+#sign-in-button,
+#subscribe-button,
+#search-button {
+    display: inline-block;
+    padding: 0 0.4em;
+}
+
+#sign-in-button,
+#subscribe-button,
+#signin-separator {
+    padding-top: 0.4em;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+
+.header-button {
+    color: dimgray;
+}
+
+.subscribe-button {
+   color: #126BAA; 
+}
+
+#right-buttons {
+    display: flex;
+    justify-content: row;
+    padding-top: 1em;
+}
+
+#loupe {
+    padding-top: 0.2em;
+}
+
+/*----- BANDEAU SUBSCRIBE ------*/
+
+#subscribe-bandeau {
+    background-color: black;
+    width: 100%;
+	
+}
+
+
+#subscribe-bandeau h1 {
+    color: darkgray;
+    font-family: 'Coiny';
+    font-size: 3vw;
+}
+
+
+
+#subscribe-bandeau #get-wired {
+    color: white;
+}
+
+.bandeau-black {
+    background-color: black;
+}
+
+.bandeau-black li, 
+.includatum {
+    color: white;
+    font-family: 'Josefin sans';
+    font-size: 1.3vw;
+}
+
+#subscribe-bandea-button {
+    background-color: #F5CB00;
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Josefin sans';
+}
+
+#subscribe-bandea-button:hover {
+    background-color: rgb(188, 161, 62);
+}
+
+.year410bucks {
+    color: white;
+    font-family: 'Josefin sans';
+    font-size: 1.7vw;
+    padding-top: 1em;
+}
+
+
+display-none {
+    display: none;
+}
+
+/*
+#right-buttons:hover #subscribe-bandeau {
+    display: block;
+}
+*/
+@media screen and (max-width: 992px) {
+    #subscribe-bandeau {
+        visibility: hidden;
+    }
+    
+    #bardutop {
+        border: none;
+        box-shadow: 0 0 0 0;
+    }
+}
+
+
+/*---------- BUTTON BAR -------------*/
+
+#button-bar-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    
+}
+
+#button-bar1,
+#button-bar2 {
+    justify-content: space-around; 
+}
+
+.nav-button-container {
+    text-align: center;
+    border-bottom: solid thin;
+    border-color: grey;
+/*    box-shadow: 0px 1px 3px grey;*/
+    height: 2.0em;
+}
+
+.nav-button {
+    border-top: solid thin;
+    border-right: solid thin;
+    border-top: solid thin;
+    border-color: grey;
+    
+}
+
+.nav-button a {
+    color: dimgray;
+    font-size: 0.7vw;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+#special-button {
+    border-top: solid thin;
+    border-color: grey;
+}
+
+#special-button a {
+    color: dimgray;
+    font-size: 0.7vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*Fonctionnalites hover*/
+
+#business-button:hover {
+    background-color: #009F5E;
+}
+
+#culture-button:hover {
+    background-color: #41274B;
+}
+
+#gear-button:hover {
+    background-color: #1F849F;
+}
+
+#ideas-button:hover {
+    background-color: #778A74;
+}
+
+#science-button:hover {
+    background-color: #FFC036;
+}
+
+#security-button:hover {
+    background-color: #621200;
+}
+
+#transportation-button:hover {
+    background-color: #E44C50;
+}
+
+#special-button:hover {
+    background-color: #1D1D1D;
+}
+
+#special-button:hover a, 
+#business-button:hover a,
+#culture-button:hover a,
+#gear-button:hover a,
+#ideas-button:hover a,
+#science-button:hover a,
+#security-button:hover a,
+#transportation-button:hover a {
+    color: white;
+}
+
+/*--------- NAVBAR CACHEE --------*/
+
+#photo{
+    border-top: solid thin;
+    border-color: grey;
+}
+
+
+#bandeau{
+    height: 150px;
+}
+
+.imagebandeau{
+    height: 90px;
+    width: 100px;
+    margin: auto;
+    margin-top: 25px;
+    
+}
+
+.text-logo{
+    color: grey;
+    position: relative;
+    bottom: 20px
+}
+
+.text-logo:hover {
+    color: white;
+}
+
+#business:hover {
+    background-color: #009F5E;
+}
+
+#culture:hover {
+    background-color: #41274B;
+}
+
+#gear:hover {
+    background-color: #1F849F;
+}
+
+#ideas:hover {
+    background-color: #778A74;
+}
+
+#science:hover {
+    background-color: #FFC036;
+}
+
+#security:hover {
+    background-color: #621200;
+}
+
+#transportation:hover {
+    background-color: #E44C50;
+}
+
+#photo:hover {
+    background-color: #1D1D1D;
+}
+
+/*-------MOZAIC-------*/
+.auteur,
+.article-category {
+    color: dimgray;
+    font-family: 'Josefin', sans-serif;
+    font-size: 0.8em;
+    font-weight: 0;
+}
+
+.article-category-big {
+    font-family: 'Abril Fatface', sans-serif;
+    color: dimgray;
+    font-size: 30px;
+}
+
+
+#mozaic-container h5 {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#mozaic-container h3 {
+    font-family: 'Anton', sans-serif;
+}
+
+/*-------Top STORIES-------*/
+#top-stories {
+    padding-top: 1em;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#top-stories h3 {
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+#top-stories-container {
+    background-color: white;
+    padding: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: solid thin darkgrey;
+    border-top: solid 1em black;
+}
+
+/*-------First ROW-------*/
+#mozaic-container {
+    max-width: 700px;
+    background-color: #F6F6F6;
+}
+
+
+.card-container {
+    margin-top: 1.5rem;
+    border-top: solid black;
+    background-color: white;
+    max-height: 350px;
+}
+
+
+.card {
+    margin-top: 1em;
+    
+}
+
+.margin-bot {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 992px) {
+    #row1left {
+        margin-left: -0.75em;
+    }
+    
+    #row1right {
+        margin-right: -0.75em;
+        margin-top: 0;
+    }
+    
+    #divide2 {
+        margin-left: -0.7em;
+    }
+    
+    #text-only-card {
+        margin-right: -0.7em;
+        margin-top: 0;
+    }
+    
+    .card-container {
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+    #row1right,
+    #row1left,
+    #top-mini-card,
+    #bot-mini-card,
+    #text-only-card,
+    #last-block
+    {
+        box-shadow: 0px 3px 5px 1px darkgray;
+        transition: 0.3s;
+    }
+    
+    #row1right:hover,
+    #row1left:hover,
+    #top-mini-card:hover,
+    #bot-mini-card:hover,
+    #text-only-card:hover,
+    #last-block:hover
+    {
+        position: relative; 
+        top: -5px;
+        box-shadow: 0px 3px 10px 2px dimgray;
+        transition: 0.3s;
+    }
+    
+    
+    
+    
+    #row1right:hover .grey,
+    #row1left:hover .grey,
+    #top-mini-card:hover .grey,
+    #bot-mini-card:hover .grey,
+    #text-only-card:hover .grey,
+    #last-block:hover .grey
+    {
+        color: gray;
+        transition: 0.4s;
+    }
+    
+}
+
+/*-------Second ROW-------*/
+.mini-card {
+    border-top: solid black;
+}
+
+#divide2 {
+    background-color: #F6F6F6;
+    padding: 0;
+    max-height: 350px;
+}
+
+#top-mini-card {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 992px) {
+  #divide2 {
+    max-height: 1000px;
+    margin-top: 0;
+}
+    .mini-card {
+        min-height: 350px;
+        border-top: thin;
+        margin-top: 0;
+    }
+    
+    .second-title {
+        padding-top: 1em;
+    }
+    
+    .flex-item:nth-of-type(1) {
+        order: 2;
+    }
+    
+    .card-container {
+        border-top: thin;
+    }
+
+}
+
+/*-------Third ROW-------*/
+#lastCard {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-one {
+    padding-bottom: 1em;
+}
+
+#bot-row {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+@media screen and (max-width: 992px) {
+    .bottom-one {
+        margin: 0;
+    }
+    #lastCard img {
+        margin-bottom: 0;
+    }
+    
+    .limitedheight {
+    max-height: 200px;
+}
+    #mozaic-container {
+        padding: 0;
+    }
+    
+}
+    
