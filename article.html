@@ -1,0 +1,539 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body class="no-gutters">
+        
+        <div class="no-gutters" id="bardutop">
+            
+            <nav class="navbar">
+                <a class="navbar-brand no-padding" href="#">
+                    <img id="menuBurger" src="https://www.wired.com/images/icons/ui-menu-black.svg" onclick="bandeau();" >
+                </a>
+                <a href="index.html" id="logo" class="col-2 no-padding">
+                    <img src="85caa0bb8c371b2013bae29e33ee1b43.png" width="" height="39" alt="">
+                </a>
+                <div id="right-buttons" onmouseover="document.getElementById('subscribe-bandeau').style.display='block'; document.getElementById('button-bar1').style.visibility='hidden'; document.getElementById('button-bar2').style.visibility='hidden'; document.getElementById('button-bar1').style.height='0'; document.getElementById('button-bar2').style.height='0';">
+                    <a href="#" id="sign-in-button" class="d-none d-xl-block">
+                        <p class="header-button font-weight-bold">SIGN IN</p>
+                    </a>
+                    <p id="signin-separator" class="d-none d-xl-block">|</p>
+                    <a href="formulaireanthony.html" id="subscribe-button">
+                        <p class="header-button subscribe-button font-weight-bold">SUBSCRIBE</p>
+                    </a>
+                    <a id="search-button" href="#" id="loupe">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPkSURBVGhD7Zhr6I5nHIBfJuc5znFNTHOYERETW9rsA+2QNJTal4kNJV+cwnyyEpocpoWdlMMHxT6QQ46RQ5NCSpNDspaQU8yWXdfzPHe9H3x4+++5/96n3quunsNfun/vfd+/+/d7SjVq1KgqOuBEnI0rcR1+g1PxXWyIVUsjdKCH8R+8jadxF27BQ3gJ/dstXI+9saoYh5fxDi7DEVj+qzfLruJsfYkH8Bl+j53wpeIsrMUnaABtULqh7+UDPJrelkbinPQ24SM8izdwsC9eBs1xP7pMhvsCFmM7bIWTfZERZqQnjklvkz3k4BvjBnyMn2G90gC3o8vpDV9kuKENpBIMtHwWFuIjHJI81ROL8B72y/wR68p7uCK9LW1El1nH5Cky3dE98XnyVCq9ih+mt3XiNTQ5iMvMPWO6js5mPIav4LTsmgdD0WVlAjCbRU3Nr+O/+D42wZ+xPLX+H9wzE9LbJDWblqMxHa+lt1GZgjcxWgWwB1dhV/S0zpuxOB/d7M78MIyCZ8YkdDmN90XOvInhTDK1z0xv88VNbZ00KnmKz0G04Mydzvgce+GMzLyxWrCc8boNf8DcaYsG4mnsEtAYjM6uv2G08+Rv/CS9jc4ZtOSJwnmchc7GOV/kzBe4Gt2PtgQWllFwqveiRePbvsgZq2aLUMt9E0t7jMLH6PIKfUff7JoHNlyhcraINGtFw5P2Crp2PUuuYgvMAyvqBWgwLiu7yKhYptzHWO3pcryIdp9RcSOeQj8qOEODsvu6YgsQ+hnL+af4afIUGTf6JvRMWYpNcSBK6+xaCS3RH8V+xubMTf4XWstFxyC+w4fomrbB+hZDlXod7csr4Re0ypV38A/ch3n1Ny/EDW2GCkHYj4jBODM7sQuG3qQ/2umJZ04oZyw0t6a3STfooD0r3HNW03n1Ni/EksSq1wFrONnttQ3K9e2eeYBL0NTszPVAKQ/EZWjA/t0f4wT69cRPRL6LhkGYCn9FZ+QCnkTPE4NwhhyAS+trNDV7zrhE/Fxq0P4ffdCq2S7Q710uQfuNn9BvYFEJQdzF39FT1obHMsWZCUGUY0AGuQb9d2agMJPqZ9TdaK9vcxadEMQOdPAG8hWKv66DqrT6NZOZkSw/6pUQRPiW63PYhG5OU++fmNeJHoUQxBE0qzjoeSghiBBc1VIehBvRWifsgcIF4XJyJgwiNDWFC8KN7dVBh5O6cEGYYs1OPs9FKUwQfg1xkNY8plf164UUJgjxQDuODtrDzkNKChWEWP940g5InlIKF4Q4aCtOewCDKWQQgRCMg7cSLWQQAYOxcvU761u+qFGjRlEplf4DQHDPVkpRZC8AAAAASUVORK5CYII=" height="25" width="25">
+                    </a>
+                </div>
+            </nav>
+            
+<!--      BANDEAU SUBSCRIBE     -->
+            <div class="container-fluid display-none" id="subscribe-bandeau">
+                <div class="row justify-content-center">
+                    <!--         Card 1           -->
+                    <div class="card col-3 bandeau-black img-fluid">
+                      <div class="card-body">
+                        <h1 class="card-title mb-0" id="get-wired">GET WIRED</h1>
+                        <h1 class="card-title">THE FUTURE IS ALREADY HERE.</h1>
+                        <p class="card-text year410bucks">Get 1 year for just $10</p>
+                        
+                      </div>
+                    </div>
+                    <!--         Card 2           -->
+                    <div class="card col-3 bandeau-black">
+                      <img class="img-fluid" src="https://www.wired.com/images/zohar-md.png">
+                    </div>
+                    <!--         Card 3           -->
+                    <div class="card col-3 bandeau-black">
+                      <div class="card-body">
+                        <p class="card-text includatum">Includatum:</p>
+                        <ul>
+                            <li>Phasellus sed tincidunt urna.</li>
+                            <li>Nulla sed lacus a nisl ornare interdum et quis odio. </li>
+                            <li>In congue tellus viverra ante euismod</li>
+                            <li>Donec vel hendrerit nibh.</li>
+                            <li>Suspendisse 10 pulvinar mauris nec tincidunt ultricies.</li>
+                        </ul>
+                        
+                        <a href="formulaireanthony.html" class="btn w-100" id="subscribe-bandea-button">Subscribe</a>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+            
+<!--      BUTTON BAR      -->
+            
+            <div class="no-gutters container-fluid col-0 col-lg-12 d-none d-xl-block" id="button-bar-container" style="display: block">
+               <div class="row col-0 col-lg-12 no-gutters">
+                <ul class="nav col-0 col-lg-6 no-gutters nav-button-container" id="button-bar1">
+                    <li class="nav-item col-0 col-lg-3 no-gutters nav-button" id="business-button">
+                        <a class="nav-link active" href="#">BUSINESS</a>
+                    </li>
+                    <li class="nav-item col-0 col-lg-3 nav-button" id="culture-button">
+                        <a class="nav-link" href="#">CULTURE</a>
+                    </li>
+                    <li class="nav-item col-0 col-lg-3 nav-button" id="gear-button">
+                        <a class="nav-link" href="#">GEAR</a>
+                    </li>
+                    <li class="nav-item col-0 col-lg-3 nav-button" id="ideas-button">
+                        <a class="nav-link" href="#">IDEAS</a>
+                    </li>
+                </ul>
+                <ul class="nav col-0 col-lg-6 nav-button-container" id="button-bar2">
+                    <li class="nav-item col-0 col-lg-3 nav-button" id="science-button">
+                        <a class="nav-link active" href="#">SCIENCE</a>
+                    </li>
+                    <li class="nav-item col-0 col-lg-3 nav-button" id="security-button">
+                        <a class="nav-link" href="#">SECURITY</a>
+                    </li>
+                    <li class="nav-item col-0 col-lg-3 nav-button" id="transportation-button">
+                        <a class="nav-link" href="#">TRANSPORT</a>
+                    </li>
+                    <li class="nav-item col-0 col-lg-3" id="special-button">
+                        <a class="nav-link" href="#">PHOTO</a>
+                    </li>
+                </ul>
+                </div> 
+            </div>
+            
+<!--      NAVBAR CACHE      -->
+            <div id="bandeau" class="row col-0 col-lg-12 no-gutters">
+                        <ul class="nav col-0 col-lg-6 no-gutters nav-button-container" id="bandeau">
+
+
+                            <li class="nav-item col-0 col-lg-3 no-gutters nav-button" id="business">
+                                <img src="https://www.wired.com/images/icons/nav/business@2x.png" class="nav-link active imagebandeau" href="#">
+                                <p class="text-logo pt-2 serif font-weight-bold">BUSINESS</p>
+
+
+                            </li>
+
+
+                            <li class="nav-item col-0 col-lg-3 nav-button" id="culture">
+                                <img src="https://www.wired.com/images/icons/nav/culture@2x.png" class="nav-link active imagebandeau" href="#">
+                                <p class="text-logo pt-2 font-weight-bold">CULTURE</p>
+                            </li>
+
+
+                            <li class="nav-item col-0 col-lg-3 nav-button" id="gear">
+                                <img src="https://www.wired.com/images/icons/nav/gear@2x.png" class="nav-link active imagebandeau" href="#">
+                                <p class="text-logo pt-2 font-weight-bold">GEAR</p>
+                            </li>
+
+
+                            <li class="nav-item col-0 col-lg-3 nav-button" id="ideas">
+                                <img src="https://www.wired.com/images/icons/nav/ideas@2x.png" class="nav-link active imagebandeau" href="#">
+                                <p class="text-logo pt-2 font-weight-bold">IDEAS</p>
+
+                            </li>
+                        </ul>
+
+
+                        <ul class="nav col-0 col-lg-6 nav-button-container" id="bandeau">
+
+
+                            <li class="nav-item col-0 col-lg-3 nav-button" id="science">
+                                <img src="https://www.wired.com/images/icons/nav/science@2x.png" class="nav-link active imagebandeau" href="#">
+                                <p class="text-logo pt-2 font-weight-bold">SCIENCE</p>
+                            </li>
+
+
+                            <li class="nav-item col-0 col-lg-3 nav-button" id="security">
+                                <img src="https://www.wired.com/images/icons/nav/security@2x.png" class="nav-link active imagebandeau" href="#">
+                                <p class="text-logo pt-2 font-weight-bold">SECURITY</p>
+                            </li>
+
+
+                            <li class="nav-item col-0 col-lg-3 nav-button" id="transportation">
+                                <img src="https://www.wired.com/images/icons/nav/transportation@2x.png" class="nav-link active imagebandeau" href="#">
+                                <p class="text-logo pt-2 font-weight-bold">TRANSPORT</p>
+                            </li>
+
+
+                            <li class="nav-item col-0 col-lg-3" id="photo">
+                               <img src="https://www.wired.com/images/icons/nav/photo@2x.png" class="nav-link active imagebandeau" href="#">
+                                <p class="text-logo pt-2 font-weight-bold">PHOTO</p>
+                            </li>
+
+
+                        </ul>
+
+
+                    </div> 
+        </div>
+        
+        
+        <!----------------- MAIN ----------------------------->
+        <div class="container-fluid col-12 no-gutters" id="imgsurf" onmouseover="document.getElementById('subscribe-bandeau').style.display='none'; document.getElementById('button-bar1').style.visibility='visible'; document.getElementById('button-bar2').style.visibility='visible'; document.getElementById('button-bar1').style.height='auto'; document.getElementById('button-bar2').style.height='auto';">
+            <figure class="figure no-gutters" id="bigassfigure">
+                <img src="https://media.wired.com/photos/5b8f14ad8494612d7f7dbf4b/master/w_2100,c_limit/RY_SurfRanch_HiRes-11.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                <figcaption class="figure-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sem odio, semper a urna porttitor, placerat aliquet mauris. Nulla blandit dolor eros, ut faucibus mi sollicitudin id.</figcaption>
+            </figure>
+        </div>
+        
+        <div class="container main-text-container" onmouseover="document.getElementById('subscribe-bandeau').style.display='none'; document.getElementById('button-bar1').style.visibility='visible'; document.getElementById('button-bar2').style.visibility='visible'; document.getElementById('button-bar1').style.height='auto'; document.getElementById('button-bar2').style.height='auto';">
+            <div class="container vertical-padding" id="petitbackchannel">
+                <a class="no-padding small backchannel" href="#" style="font-family: serif; font-weight: 700">BACKCHANNEL</a>
+                <div class="col-1 no-padding"></div>
+                <p class="no-padding serif small"> 09.05.18 07:00 AM</p>
+            </div>
+            <h1 class="abril vertical-padding">Honsectetur vestibulum ante vehicula consequat.</h1>
+            <h5 class="petit-gras vertical-padding">Nunc ex magna, interdum eget dictum ut, fringilla et magna. Nunc aliquam mauris vel felis aliquam, non consectetur lorem aliquet. Praesent ullamcorper egestas gravida. Morbi in facilisis ligula. Proin vestibulum leo non enim faucibus, quis tempus magna tempus. </h5>
+            <p class="no-padding serif vertical-padding author"><b>BY LAUREN GOOD</b></p>
+            <h2 class="phrase-accroche vertical-padding">Nunc aliquam mauris vel felis aliquam, non consectetur lorem aliquet.</h2>
+            <p class="article-text">Duis porta dapibus nibh sit amet ultrices. Integer feugiat, ipsum ac tempor viverra, metus odio placerat lacus, vitae interdum elit nisl non lacus. Donec pretium, mi eu tristique accumsan, risus mauris venenatis elit, quis euismod massa dui eu mi. Aliquam vulputate leo risus. Aenean ac venenatis ex, non fringilla orci. Mauris ullamcorper quis neque at hendrerit. Ut at scelerisque mi. Nulla faucibus lectus in euismod auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada eget ante vel imperdiet. Fusce in porta orci. Maecenas vel dui diam. In consectetur metus sit amet pretium vehicula. </p>
+            <p class="article-text"> Cras consectetur vestibulum ante vehicula consequat. Praesent vel ullamcorper quam. Praesent ut tempor arcu. Vivamus interdum ante lacus, ac convallis ligula viverra eget. Vestibulum a finibus augue, nec ultrices ex. Donec mollis ante vitae fringilla ullamcorper. Aenean ligula erat, fermentum eget rutrum nec, dictum id justo.
+
+            Nunc ex magna, interdum eget dictum ut, fringilla et magna. Nunc aliquam mauris vel felis aliquam, non consectetur lorem aliquet. Praesent ullamcorper egestas gravida. Morbi in facilisis ligula. Proin vestibulum leo non enim faucibus, quis tempus magna tempus. Praesent auctor turpis id felis faucibus maximus. Integer euismod, felis quis consequat blandit, lorem nisi rhoncus orci, eget dictum eros nisl at velit. Vivamus eleifend euismod velit, non posuere dui congue pellentesque.
+
+            Duis porta dapibus nibh sit amet ultrices. Integer feugiat, ipsum ac tempor viverra, metus odio placerat lacus, vitae interdum elit nisl non lacus. Donec pretium, mi eu tristique accumsan, risus mauris venenatis elit, quis euismod massa dui eu mi. Aliquam vulputate leo risus. Aenean ac venenatis ex, non fringilla orci. </p>
+            
+            <p class="article-text">Mauris ullamcorper quis neque at hendrerit. Ut at scelerisque mi. Nulla faucibus lectus in euismod auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada eget ante vel imperdiet. Fusce in porta orci. Maecenas vel dui diam. In consectetur metus sit amet pretium vehicula.
+            </p>
+        </div>
+        
+        <div class="container main-text-container" onmouseover="document.getElementById('subscribe-bandeau').style.display='none'; document.getElementById('button-bar1').style.visibility='visible'; document.getElementById('button-bar2').style.visibility='visible'; document.getElementById('button-bar1').style.height='auto'; document.getElementById('button-bar2').style.height='auto';">
+            
+            <p class="article-text"> Cras consectetur vestibulum ante vehicula consequat. Praesent vel ullamcorper quam. Praesent ut tempor arcu. Vivamus interdum ante lacus, ac convallis ligula viverra eget. Vestibulum a finibus augue, nec ultrices ex. Donec mollis ante vitae fringilla ullamcorper. Aenean ligula erat, fermentum eget rutrum nec, dictum id justo.
+
+            Nunc ex magna, interdum eget dictum ut, fringilla et magna. Nunc aliquam mauris vel felis aliquam, non consectetur lorem aliquet. Praesent ullamcorper egestas gravida. Morbi in facilisis ligula. Proin vestibulum leo non enim faucibus, quis tempus magna tempus. Praesent auctor turpis id felis faucibus maximus. Integer euismod, felis quis consequat blandit, lorem nisi rhoncus orci, eget dictum eros nisl at velit. Vivamus eleifend euismod velit, non posuere dui congue pellentesque.
+
+            Duis porta dapibus nibh sit amet ultrices. Integer feugiat, ipsum ac tempor viverra, metus odio placerat lacus, vitae interdum elit nisl non lacus. Donec pretium, mi eu tristique accumsan, risus mauris venenatis elit, quis euismod massa dui eu mi. Aliquam vulputate leo risus. Aenean ac venenatis ex, non fringilla orci. </p>
+            
+            <p class="article-text">Mauris ullamcorper quis neque at hendrerit. Ut at scelerisque mi. Nulla faucibus lectus in euismod auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada eget ante vel imperdiet. Fusce in porta orci. Maecenas vel dui diam. In consectetur metus sit amet pretium vehicula.
+
+            Suspendisse pretium dolor ac urna tincidunt, vitae eleifend nisi blandit. Praesent aliquet posuere arcu, quis suscipit sapien posuere a. Cras ligula turpis, rutrum eget convallis a, vestibulum id enim. Nam blandit ut risus nec ultrices. Vestibulum porttitor ipsum nec volutpat tempor. Fusce accumsan dapibus nibh, ut convallis dolor congue at. Quisque eu facilisis urna. Curabitur non tellus varius, viverra eros ut, mattis lorem. </p>
+        </div>
+        
+        <div class="container text-img-container" onmouseover="document.getElementById('subscribe-bandeau').style.display='none'; document.getElementById('button-bar1').style.visibility='visible'; document.getElementById('button-bar2').style.visibility='visible'; document.getElementById('button-bar1').style.height='auto'; document.getElementById('button-bar2').style.height='auto';">
+            <div class="row  bigassfigure-container">
+                <figure class="figure no-gutters col-12 col-md-6" id="bigassfigure">
+                    <img src="https://media.wired.com/photos/5b8f35d231da9d2dd4094fcd/master/w_578,c_limit/RY_SurfRanch_HiRes-24.jpg" class="figure-img rounded img-fluid  fiftytextimg stay-fixed" alt="A generic square placeholder image with rounded corners in a figure.">
+                    <figcaption class="figure-caption" style="padding-right: 2em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sem odio, semper a urna porttitor, placerat aliquet mauris.</figcaption>
+                </figure>
+                <div class="col-12 col-md-5"><p class="article-text">Mauris ullamcorper quis neque at hendrerit. Ut at scelerisque mi. Nulla faucibus lectus in euismod auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada eget ante vel imperdiet. Fusce in porta orci. Maecenas vel dui diam. In consectetur metus sit amet pretium vehicula.
+
+                Suspendisse pretium dolor ac urna tincidunt, vitae eleifend nisi blandit. Praesent aliquet posuere arcu, quis suscipit sapien posuere a. Cras ligula turpis, rutrum eget convallis a, vestibulum id enim. Nam blandit ut risus nec ultrices. Vestibulum porttitor ipsum nec volutpat tempor.</p>
+                
+                <p class="article-text">Parturient ullamcorper quis neque at hendrerit. Ut at scelerisque mi. Nulla faucibus lectus in euismod auctor. Orci varius natoque penatibus et magnis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada eget ante vel imperdiet. Fusce in porta orci. Maecenas vel dui diam. In consectetur metus sit amet pretium vehicula.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container main-text-container article-text">
+            <p>Duis porta dapibus nibh sit amet ultrices. Integer feugiat, ipsum ac tempor viverra, metus odio placerat lacus, vitae interdum elit nisl non lacus. Donec pretium, mi eu tristique accumsan, risus mauris venenatis elit, quis euismod massa dui eu mi. Aliquam vulputate leo risus. Aenean ac venenatis ex, non fringilla orci. Mauris ullamcorper quis neque at hendrerit. Ut at scelerisque mi. Nulla faucibus lectus in euismod auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada eget ante vel imperdiet. Fusce in porta orci. Maecenas vel dui diam. In consectetur metus sit amet pretium vehicula. </p>
+            <p> Cras consectetur vestibulum ante vehicula consequat. Praesent vel ullamcorper quam. Praesent ut tempor arcu. Vivamus interdum ante lacus, ac convallis ligula viverra eget. Vestibulum a finibus augue, nec ultrices ex. Donec mollis ante vitae fringilla ullamcorper. Aenean ligula erat, fermentum eget rutrum nec, dictum id justo.
+
+            Nunc ex magna, interdum eget dictum ut, fringilla et magna. Nunc aliquam mauris vel felis aliquam, non consectetur lorem aliquet. Praesent ullamcorper egestas gravida. Morbi in facilisis ligula. Proin vestibulum leo non enim faucibus, quis tempus magna tempus. Praesent auctor turpis id felis faucibus maximus. Integer euismod, felis quis consequat blandit, lorem nisi rhoncus orci, eget dictum eros nisl at velit. Vivamus eleifend euismod velit, non posuere dui congue pellentesque.
+
+            Duis porta dapibus nibh sit amet ultrices. Integer feugiat, ipsum ac tempor viverra, metus odio placerat lacus, vitae interdum elit nisl non lacus. Donec pretium, mi eu tristique accumsan, risus mauris venenatis elit, quis euismod massa dui eu mi. Aliquam vulputate leo risus. Aenean ac venenatis ex, non fringilla orci. </p>
+            
+            <p>Mauris ullamcorper quis neque at hendrerit. Ut at scelerisque mi. Nulla faucibus lectus in euismod auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed malesuada eget ante vel imperdiet. Fusce in porta orci. Maecenas vel dui diam. In consectetur metus sit amet pretium vehicula.
+
+            Suspendisse pretium dolor ac urna tincidunt, vitae eleifend nisi blandit. Praesent aliquet posuere arcu, quis suscipit sapien posuere a. Cras ligula turpis, rutrum eget convallis a, vestibulum id enim. Nam blandit ut risus nec ultrices. Vestibulum porttitor ipsum nec volutpat tempor. Fusce accumsan dapibus nibh, ut convallis dolor congue at. Quisque eu facilisis urna. Curabitur non tellus varius, viverra eros ut, mattis lorem. </p>
+        </div>
+        
+        <div class="container two-photos">
+            <div class="row">
+                <figure class="figure no-gutters col-md-6" id="bigassfigure">
+                        <img src="https://media.wired.com/photos/5b8f1c93404e112d2df1e99a/master/w_566,c_limit/RY_SurfRanch_HiRes-1.jpg" class="figure-img img-fluid rounded fiftytextimg" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption smallfig">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sem odio, semper a urna porttitor, placerat aliquet mauris.</figcaption>
+                </figure>
+                <figure class="figure no-gutters col-md-6" id="bigassfigure">
+                        <img src="https://media.wired.com/photos/5b8f1c9f8ad2072d6adbe39a/master/w_566,c_limit/RY_SurfRanch_HiRes-2.jpg" class="figure-img img-fluid rounded fiftytextimg" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption smallfig">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sem odio, semper a urna porttitor, placerat aliquet mauris.</figcaption>
+                </figure>
+            </div>
+        </div>
+        
+        <div class="container main-text-container article-text">
+            
+            <p> Cras consectetur vestibulum ante vehicula consequat. Praesent vel ullamcorper quam. Praesent ut tempor arcu. Vivamus interdum ante lacus, ac convallis ligula viverra eget. Vestibulum a finibus augue, nec ultrices ex. Donec mollis ante vitae fringilla ullamcorper. Aenean ligula erat, fermentum eget rutrum nec, dictum id justo.
+
+            Nunc ex magna, interdum eget dictum ut, fringilla et magna. Nunc aliquam mauris vel felis aliquam, non consectetur lorem aliquet. Praesent ullamcorper egestas gravida. Morbi in facilisis ligula. Proin vestibulum leo non enim faucibus, quis tempus magna tempus. Praesent auctor turpis id felis faucibus maximus. Integer euismod, felis quis consequat blandit, lorem nisi rhoncus orci, eget dictum eros nisl at velit. Vivamus eleifend euismod velit, non posuere dui congue pellentesque.
+
+            Duis porta dapibus nibh sit amet ultrices. Integer feugiat, ipsum ac tempor viverra, metus odio placerat lacus, vitae interdum elit nisl non lacus. Donec pretium, mi eu tristique accumsan, risus mauris venenatis elit, quis euismod massa dui eu mi. Aliquam vulputate leo risus. Aenean ac venenatis ex, non fringilla orci. </p>
+        </div>
+        
+<!--    YOUTUBE    -->
+        <div class="container" id="youtube-container">
+            <h1 id="related-video-title">RELATED VIDEO</h1>
+            <div class="card border-white" id="youtube-card"> 
+                <div class="embed-responsive embed-responsive-16by9" id="youtube">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="card-body no-padding">
+                    <p class="card-text serif small-category"><small class="text-muted">CULTURE</small></p>
+                  <h5 class="card-title font-weight-bold">Amazing drummer | This musician's skills are off the charts!</h5>
+                  <p class="card-text serif">Duis porta dapibus nibh sit amet ultrices. Integer feugiat, ipsum ac tempor viverra, metus odio placerat lacus, vitae interdum elit nisl non lacus. Donec pretium, mi eu tristique accumsan, risus mauris venenatis elit, quis euismod massa dui eu mi.</p>
+                </div>
+            </div>
+            <div>
+                <p class="card-text serif empty border-top border-bottom">     </p>
+            </div>
+            <div class="empty">
+                <a href="#" class="hashtag serif">#ADAMN FINCHAM #KELLY SLATER #WAVE #SURFER</a>
+            </div>
+        </div>
+    
+<!--    LIENS SPONSORS    -->
+        <div class="container-fluid gris padding-container pb-5">
+            <div class="container pb-3" id="liens-sponsor">
+                <h1 class="sponsored" id="related-video-title">SPONSORED STORIES</h1>
+                <div class="card-deck">
+                  <div class="card small-card">
+                    <img class="card-img-top" src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjlhMjMwZjUyNTZlY2YwMGVhNmU5MDEyNjJkZjAyMTVkOTA0YjUwZjgwMDBjMDg2NWMwMTBjY2I3ZmZlMjE4MGQiLCJ3IjoxMjAsImgiOjg4LCJkIjoxLjUsImNzIjowLCJmIjowfQ.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">How I lost 20lbs in 1 month</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card small-card">
+                    <img class="card-img-top" src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjYmQ1YjM0NjNhYzM4MDU2ZTFjYjFlNWY0NzhjYTY5N2JkOWE5ZmE0YWY2ODRjNDIzZjU1ZmY5NzY0MzNhOWMiLCJ3IjoxMjAsImgiOjg4LCJkIjoxLjUsImNzIjowLCJmIjowfQ.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">New Phone for sale</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card small-card">
+                    <img class="card-img-top" src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjgxOGE1MjU2OWVlYmFkZWUzOTE5N2EzZDA1N2YxMjQ2ZTQ2OGI3NTQ3NmJjODcwNWZiZmY2MmIwYWZmNmNlNDMiLCJ3IjoxMjAsImgiOjg4LCJkIjoxLjUsImNzIjowLCJmIjowfQ.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Acne cure</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                    <div class="card small-card">
+                    <img class="card-img-top" src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjA3YzEzNDE1MjhmN2YxNjkyNzM5N2JkY2YxNTNkZWE0NGIzM2E1M2FkNWM4ZjlkZjExOTE4NDY4YTZjZWE4MDYiLCJ3IjoxMjAsImgiOjg4LCJkIjoxLjUsImNzIjowLCJmIjowfQ.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Brand new treatment</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                    <div class="card small-card">
+                    <img class="card-img-top" src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjdmNWUwNDZjZjE5ZDNkOTYwZWJmNjc5MDk5Mzg0YmVlMWU5N2M0ZTI3MmUwYTNlZDA1MTEzOGZkZjhkMDNmMmQiLCJ3IjoxMjAsImgiOjg4LCJkIjoxLjUsImNzIjowLCJmIjowfQ.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">App to exercise effortlessly</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+                
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<!--
+        <div id="megadiv">
+            <div class="col-6 horizontal-suggestion-container no-gutters">
+
+                <div class="col-12 no-gutters intermediary-container">
+
+                    <div class="col-8 suggestion-container">
+                        <div class="col-12 suggestion-1">
+                            <div class="img-container no-gutters">
+                                <img class="col-12" src="https://via.placeholder.com/550x150">
+                            </div>
+                            <div class="description-container">
+                                <h4>Things you need to do with your Iphone</h4>
+                                <p>Adrien Sawyer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 suggestion-container">
+                        <div class="col-11 offset-1 suggestion-2">
+                            <div class="img-container-small no-gutters">
+                                <img class="img-responsive col-12 no-gutters" src="https://via.placeholder.com/230x150">
+                            </div>
+                            <div class="description-container">
+                                <h4>Look at this new stuff!</h4>
+                                <p>Philip Mitchel</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 no-gutters second-mozaique">
+                <div class="horizontal-column">
+                    <div class="col-6 suggestion-3">
+                        <div class="no-gutters">
+                            <img class="col-12 no-gutters" src="https://via.placeholder.com/230x150">
+                        </div>
+                        <div class="paragraph">
+                            <h4>Try this pizza out mate!</h4>
+                            <p>Gaston Maja</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="vertical-column">
+                    <div class="col-6 suggestion-3">
+                        <div class="no-gutters">
+                            <img class="col-12 no-gutters" src="https://via.placeholder.com/230x150">
+                        </div>
+                        <div class="paragraph">
+                            <h4>Try this pizza out mate!</h4>
+                            <p>Gaston Maja</p>
+                        </div>
+                    </div>
+                    <div class="col-6 suggestion-3">
+                        <div class="no-gutters">
+                            <img class="col-12 no-gutters" src="https://via.placeholder.com/230x150">
+                        </div>
+                        <div class="paragraph">
+                            <h4>Try this pizza out mate!</h4>
+                            <p>Gaston Maja</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                </div>
+                
+            </div>
+        </div>
+-->
+        <div class="container-fluid pt-3" id="footer-container">
+            <div class="row">
+                <div id="logowired" class="col-12">
+                    <a href="http://zupimages.net/viewer.php?id=18/38/xdjj.png"><img class="lgwired" src="https://zupimages.net/up/18/38/xdjj.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="row col-12">
+                <div class="col-1">
+                </div>
+                <div id="logofacebook" class="social col-2">
+                    <a href="https://fr-fr.facebook.com/"><img src="https://zupimages.net/up/18/38/g4yi.png" alt="" /></a>
+                </div>
+                <div id="logotwitter" class="social col-2">
+                    <a href="https://twitter.com/?lang=fr"><img src="https://zupimages.net/up/18/38/9g4s.png" alt="" /></a>
+                </div>
+                <div id="logopinterest" class="social col-2">
+                    <a href="https://www.pinterest.fr/"><img src="https://zupimages.net/up/18/38/7g8j.png" alt="" /></a>
+                </div>
+                <div id="logoyoutube" class="social col-2">
+                    <a href="https://www.youtube.com/?gl=FR&hl=fr"><img src="https://zupimages.net/up/18/38/phfc.png" alt="" /></a>
+                </div>
+                <div id="logoinstagram" class="social col-2">
+                    <a href="https://www.instagram.com/"><img src="https://zupimages.net/up/18/38/dopt.png" alt="" /></a>
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row col-12" id="rub">
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">SUBSCRIBE</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">ADVERTISE</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">SITE MAP</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">PRESS CENTER</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">FAQ</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">ACCESSIBILITY HELP</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">CUSTOMER CARE</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">CONTACT US</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">SECURE DROP</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">T-SHIRT COLLECTION</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">NEWSLETTER</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">WIRED STAFF</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">JOBS</div>
+                    </div>
+                    <div class="rubr col-6 col-md-2">
+                        <div class="rubrique">RSS</div>
+                    </div>
+                </div>
+            </div>
+            <div id="cg">
+                <div class="cgu">CNMN Collection</div>
+                <div class="cgu">© 2018 Condé Nast. All rights reserved.</div>
+                <div class="cgu">Use of and/or registration on any portion of this site constitutes acceptance of our User Agreement (updated 5/25/18) and Privacy Policy and Cookie Statement (updated 5/25/18). Your California Privacy Rights. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast. Ad Choices.
+                </div>
+            </div>
+        </div> 
+        
+    <script type="text/javascript" src="main.js"></script>    
+    </body>
+    
+    
+
+</html>

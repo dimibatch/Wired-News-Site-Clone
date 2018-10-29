@@ -152,6 +152,10 @@ display-none {
         border: none;
         box-shadow: 0 0 0 0;
     }
+    
+    #subscribe-button {
+        font-size: 0.6em;
+    }
 }
 
 
@@ -344,7 +348,7 @@ display-none {
 .article-category {
     color: dimgray;
     font-family: 'Josefin', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 0;
 }
 
@@ -357,11 +361,12 @@ display-none {
 
 #mozaic-container h5 {
     font-weight: bolder;
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 #mozaic-container h3 {
     font-family: 'Anton', sans-serif;
+    font-size: 1.6em;
 }
 
 /*-------Top STORIES-------*/
@@ -442,6 +447,10 @@ display-none {
         margin-top: 0;
     }
     
+    #img-cine {
+    height:60%;
+}
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -487,6 +496,10 @@ display-none {
 }
 
 /*-------Second ROW-------*/
+.card-body {
+    padding:1rem;
+}
+
 .mini-card {
     border-top: solid black;
 }
@@ -499,6 +512,7 @@ display-none {
 
 #top-mini-card {
     margin-top: 0;
+    
 }
 
 @media screen and (max-width: 992px) {
@@ -525,6 +539,8 @@ display-none {
     }
 
 }
+
+
 
 /*-------Third ROW-------*/
 #lastCard {
